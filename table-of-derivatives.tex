@@ -15,16 +15,40 @@
 
 \begin{document}
 	
-	\maketitle
+	\begin{table}[htbp]
+		\centering
+		\caption{Table of Derivatives - Cheat Sheet}
+		\begin{tabular}{ll}
+			\toprule
+			\textbf{Function $f(x)$} & \textbf{Derivative $\frac{d}{dx}[f(x)]$} \\
+			\midrule
+			$c$ (constant) & $0$ \\
+			$x^n$ (power rule) & $nx^{n-1}$ \\
+			$e^x$ & $e^x$ \\
+			$a^x$ & $a^x \ln(a)$ \\
+			$\ln(x) = \log_e(x)$ & $\frac{1}{x}$ \\
+			$\log_a(x)$ & $\frac{1}{x \ln(a)}$ \\
+			\midrule
+			$\sin(x)$ & $\cos(x)$ \\
+			$\cos(x)$ & $-\sin(x)$ \\
+			$\tan(x)$ & $\sec^2(x)$ \\
+			$\csc(x)$ & $-\csc(x)\cot(x)$ \\
+			$\sec(x)$ & $\sec(x)\tan(x)$ \\
+			$\cot(x)$ & $-\csc^2(x)$ \\
+			\midrule
+			$\arcsin(x)$ & $\frac{1}{\sqrt{1-x^2}}$ \\
+			$\arccos(x)$ & $-\frac{1}{\sqrt{1-x^2}}$ \\
+			$\arctan(x)$ & $\frac{1}{1+x^2}$ \\
+			\bottomrule
+		\end{tabular}
+	\end{table}
 	
-%----------------------------------------------------------------------------------------
-%	LINKS AND INFORMATION
-%----------------------------------------------------------------------------------------
-
+	%----------------------------------------------------------------------------------------
+	%	LINKS AND INFORMATION
+	%----------------------------------------------------------------------------------------
+	
 	\sectiontitle{Links and information}
 	
 	\url{https://github.com/paulmcquad/Maths_Calculus/}
-	
-	
 	
 \end{document}
