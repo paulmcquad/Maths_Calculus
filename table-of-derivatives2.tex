@@ -24,8 +24,8 @@
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
 
-\usepackage[margin=0pt, landscape]{geometry} % Page margins and orientation
-%\usepackage[margin=0pt, portrait]{geometry} % Page margins and orientation
+%\usepackage[margin=0pt, landscape]{geometry} % Page margins and orientation
+\usepackage[margin=0pt, portrait]{geometry} % Page margins and orientation
 
 \usepackage{graphicx} % Required for including images
 
@@ -103,8 +103,14 @@ pdfkeywords={Random Software, Cheatsheet}
 					Product Rule & $\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$ \\
 					Quotient Rule & $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ \\
 					Chain Rule & $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$ \\
-					
+					Reciprocal Rule & $\frac{d}{dx} \left[ \frac{1}{f(x)} \right] = -\frac{f'(x)}{[f(x)]^2}$ \\
 				\end{tabular}
+				
+				
+				%----------------------------------------------------------------------------------------
+				%	HEADING TWO
+				%----------------------------------------------------------------------------------------
+				
 
 				\sectiontitle{Table of Derivatives}									
 				\centering
@@ -114,38 +120,47 @@ pdfkeywords={Random Software, Cheatsheet}
 				
 					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
 					
-					$c$ (constant) & $0$ \\
+					$c$ (constant rule) & $0$ \\
 					$x^n$ (power rule) & $nx^{n-1}$ \\
 					$e^x$ & $e^x$ \\
 					$a^x$ & $a^x \ln(a)$ \\
 					$\ln(x) = \log_e(x)$ & $\frac{1}{x}$ \\
 					$\log_a(x)$ & $\frac{1}{x \ln(a)}$ \\
-					
-					\textbf{Trigonometric Functions} \\
-					
+	
+
+				\end{tabular}
+				
+				
+				\sectiontitle{Trigonometric Functions}									
+				\centering
+				
+				\begin{tabular}{ll}
+					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
 					$\sin(x)$ & $\cos(x)$ \\
 					$\cos(x)$ & $-\sin(x)$ \\
 					$\tan(x)$ & $\sec^2(x)$ \\
 					$\csc(x)$ & $-\csc(x)\cot(x)$ \\
 					$\sec(x)$ & $\sec(x)\tan(x)$ \\
 					$\cot(x)$ & $-\csc^2(x)$ \\
+					$\sin(kx)$ & $k\cos(kx)$ \\
+					$\cos(kx)$ & $-k \sin kx$ \\
+					$\tan(kx)$ & $k\sec^2kx$ \\
+				
+				\end{tabular}
 					
-					\textbf{Inverse Trigonometric Functions} \\
 					
+				\sectiontitle{Inverse Trigonometric Functions}									
+				\centering
+				
+				
+				\begin{tabular}{ll}
+					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
 					$\arcsin(x)$ & $\frac{1}{\sqrt{1-x^2}}$ \\
 					$\arccos(x)$ & $-\frac{1}{\sqrt{1-x^2}}$ \\
 					$\arctan(x)$ & $\frac{1}{1+x^2}$ \\	
-				
-
+					
+					
 				\end{tabular}
-				
-				%----------------------------------------------------------------------------------------
-				%	HEADING TWO
-				%----------------------------------------------------------------------------------------	
-				
-				\sectiontitle{Trigonometric Functions}
-						
-				
 				
 				%----------------------------------------------------------------------------------------
 				%	HEADING THREE
