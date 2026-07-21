@@ -1,14 +1,5 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Cheatsheet
-% LaTeX Template
-% Version 1.0 (12/12/15)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
 % Original author:
-% Michael Müller (https://github.com/cmichi/latex-template-collection) with
-% extensive modifications by Vel (vel@LaTeXTemplates.com)
+% Paul McQuade (https://github.com/paulmcquad/Maths_Calculus)
 %
 % License:
 % The MIT License (see included LICENSE file)
@@ -58,13 +49,13 @@ pdfkeywords={Random Software, Cheatsheet}
 	\begin{picture}(297,210) % Create a container for the page content
 		
 		
-				%----------------------------------------------------------------------------------------
+		%----------------------------------------------------------------------------------------
 		%	TITLE SECTION 
 		%----------------------------------------------------------------------------------------
 		
 		\put(5,200){ % Position on the page to put the title
 			\begin{minipage}[t]{210mm} % The size and alignment of the title
-				\section*{Maths Calculus Derivatives - Cheat Sheet} % Title
+				\section*{Calculus Derivatives - Cheat Sheet v1.0 by (Paul McQuade)} % Title
 			\end{minipage}
 		}	
 		
@@ -131,6 +122,10 @@ pdfkeywords={Random Software, Cheatsheet}
 
 				\end{tabular}
 				
+				%----------------------------------------------------------------------------------------
+				%	HEADING THREE
+				%----------------------------------------------------------------------------------------				
+
 				
 				\sectiontitle{Trigonometric Functions}									
 				\centering
@@ -148,7 +143,10 @@ pdfkeywords={Random Software, Cheatsheet}
 					$\tan(kx)$ & $k\sec^2kx$ \\
 				
 				\end{tabular}
-					
+				
+				%----------------------------------------------------------------------------------------
+				%	HEADING FOUR
+				%----------------------------------------------------------------------------------------				
 					
 				\sectiontitle{Inverse Trigonometric Functions}									
 				\centering
@@ -164,12 +162,6 @@ pdfkeywords={Random Software, Cheatsheet}
 					$\csc^{-1}(x)$ & $\frac{-1}{|x|\sqrt{x^2-1}}$ \\
 				\end{tabular}
 				
-				%----------------------------------------------------------------------------------------
-				%	HEADING THREE
-				%----------------------------------------------------------------------------------------				
-								
-				%----------------------------------------------------------------------------------------
-				
 			\end{minipage} % End the first column of text
 		} % End the first division of the page
 		
@@ -181,7 +173,7 @@ pdfkeywords={Random Software, Cheatsheet}
 			\begin{minipage}[t]{85mm} % Create a box to house text
 				
 				%----------------------------------------------------------------------------------------
-				%	HEADING FOUR
+				%	HEADING ONE
 				%----------------------------------------------------------------------------------------
 				
 
@@ -201,6 +193,10 @@ pdfkeywords={Random Software, Cheatsheet}
 				\end{tabular}
 
 
+				%----------------------------------------------------------------------------------------
+				%	HEADING TWO
+				%----------------------------------------------------------------------------------------
+
 				\sectiontitle{Hyperbolic Functions}
 				\centering
 				
@@ -213,6 +209,11 @@ pdfkeywords={Random Software, Cheatsheet}
 					$csch x$ & $-csch x \coth x$ \\
 					
 				\end{tabular}
+
+
+				%----------------------------------------------------------------------------------------
+				%	HEADING THREE
+				%----------------------------------------------------------------------------------------
 
 
 				\sectiontitle{Inverse Hyperbolic Functions}
@@ -228,30 +229,7 @@ pdfkeywords={Random Software, Cheatsheet}
 						$sech^{-1} (x)$  & $-\frac{1}{x\sqrt{1 - x^2}} \quad (0 < x < 1)$ \\
 						$csch^{-1} (x)$  & $-\frac{1}{|x|\sqrt{1 + x^2}} \quad (x \neq 0)$ \\
 				\end{tabular}
-
-
-
-			\end{minipage} % End the second column of text
-		} % End the second division of the page
-		
-		%----------------------------------------------------------------------------------------
-		%	THIRD COLUMN SPECIFICATION 
-		%----------------------------------------------------------------------------------------
-		
-		\put(200,180){ % Divide the page
-			\begin{minipage}[t]{85mm} % Create a box to house tex
 				
-				%----------------------------------------------------------------------------------------
-				%	IMPORTANT FILES
-				%----------------------------------------------------------------------------------------
-				
-				\sectiontitle{Important files}
-				
-				\texttt{/.config/awesome/rc.lua}
-				
-				\texttt{/etc/xdg/awesome/rc.lua}
-				
-				\vspace{\baselineskip} % Whitespace before the next section
 				
 				%----------------------------------------------------------------------------------------
 				%	LINKS AND INFORMATION
@@ -262,27 +240,32 @@ pdfkeywords={Random Software, Cheatsheet}
 				Latex Editor
 				
 				\url{https://latexeditor.lagrida.com/}
-				
-				
+
+
 				%----------------------------------------------------------------------------------------
 				%	FOOTNOTE
 				%----------------------------------------------------------------------------------------
-				
+
 				\vspace{\baselineskip}
 				\linethickness{0.5mm} % Thickness of the footer line
 				{\color{mygray}\line(1,0){30}} % Print the line with a custom color
-				
+
 				\footnotesize{
-					Created by John Smith, 2015\\ 
-					\url{http://johnsmith.com/}\\
 					
-					Released under the MIT license.
+					Created by Paul McQuade, 2026 \\ 
+					
+					\url{https://github.com/paulmcquad/Maths_Calculus} \\
+	
+	
+					"Calculus Derivatives - Cheat Sheet v1.0" by Paul McQuade is licensed under CC BY-SA 4.0.
 				}
 				
-				%----------------------------------------------------------------------------------------
+				\includegraphics[scale=3]{by_sa.png}
 				
-			\end{minipage} % End the third column of text
-		} % End the third division of the page
+
+			\end{minipage} % End the second column of text
+		} % End the second division of the page
+		
 	\end{picture} % End the container for the entire page
 	
 	%----------------------------------------------------------------------------------------
