@@ -201,10 +201,35 @@ pdfkeywords={Random Software, Cheatsheet}
 				\end{tabular}
 
 
-				\sectiontitle{Navigation}
+				\sectiontitle{Hyperbolic Functions}
+				\centering
 				
-				\command{Mod4 + j}{Focus next client}
-				\command{Mod4 + k}{Focus previous client}
+				\begin{tabular}{ll}
+					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
+					$\sinh x$ & $\cosh x$ \\
+					$\cosh x$ & $\sinh x$ \\
+					$\tanh x$ & ${sech}^2 x$ \\
+					$\coth x$ & $-{csch}^2 x$ \\
+					$csch x$ & $-csch x \coth x$ \\
+					
+				\end{tabular}
+
+
+				\sectiontitle{Inverse Hyperbolic Functions}
+				\centering
+				
+				\begin{tabular}{ll}
+					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
+					
+						$sinh^{-1} (x)$  & $\frac{1}{\sqrt{x^2 + 1}}$ \\
+						$cosh^{-1} (x)$  & $\frac{1}{\sqrt{x^2 - 1}} \quad (x > 1)$ \\
+						$tanh^{-1} (x)$  & $\frac{1}{1 - x^2} \quad (|x| < 1)$ \\
+						$coth^{-1} (x)$  & $\frac{1}{1 - x^2} \quad (|x| > 1)$ \\
+						$sech^{-1} (x)$  & $-\frac{1}{x\sqrt{1 - x^2}} \quad (0 < x < 1)$ \\
+						$csch^{-1} (x)$  & $-\frac{1}{|x|\sqrt{1 + x^2}} \quad (x \neq 0)$ \\
+				\end{tabular}
+
+
 
 			\end{minipage} % End the second column of text
 		} % End the second division of the page
