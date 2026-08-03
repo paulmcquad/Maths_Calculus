@@ -67,15 +67,14 @@ pdfkeywords={Random Software, Cheatsheet}
 		\put(5,180){ % Divide the page
 			\begin{minipage}[t]{85mm} % Create a box to house text
 				
-					\textbf{What is a derivative in Calculus?}
+					\textbf{What is an Integral in Calculus?}
 					
-					A derivative measures the instantaneous rate of change of a function at a specific point - (Tangent Line).
-					
-
-				\begin{center}
-						\textbf{Definition of a derivative:}
-					$f^\prime(x) =  \lim\limits_{x \to 0} \frac{f(x+h) - f(x)}{h}$ 
-				\end{center}
+					an integral is the continuous analog of a sum, and is used to calculate areas, volumes, and their generalizations.
+				%\begin{center}
+					%\textbf{Definition of an Integral:}
+					%$f^\prime(x) =  \lim\limits_{x \to 0} \frac{f(x+h) - f(x)}{h}$ 
+					%$\int f(x) \, \mathrm{d}x$
+				%\end{center}
 				
 				%----------------------------------------------------------------------------------------
 				%	HEADING ONE
@@ -86,16 +85,19 @@ pdfkeywords={Random Software, Cheatsheet}
 				
 				\begin{tabular}{ll}
 					
-					\textbf{Rules} & \textbf{Derivative} \\
+					\textbf{Rules} & \textbf{Integrals} \\
 					
 					Constant rule & $\int a \, dx = ax + C$ \\
 					Power rule & $\int x^n \, dx = \frac{x^{n+1}}{n+1} + C$ \\
 					%Linearity rule & $\frac{d}{dx}[c \cdot f(x)] = c \cdot f'(x)$ \\
 					Sum / Difference Rule & $\int (f(x) \pm g(x)) \, dx = \int f(x) \, dx \pm \int g(x) \, dx$ \\
-					%Product Rule & $\frac{d}{dx}[f(x)g(x)] = f'(x)g(x) + f(x)g'(x)$ \\
-					%Quotient Rule & $\frac{d}{dx}\left[\frac{f(x)}{g(x)}\right] = \frac{f'(x)g(x) - f(x)g'(x)}{[g(x)]^2}$ \\
-					%Chain Rule & $\frac{d}{dx}[f(g(x))] = f'(g(x)) \cdot g'(x)$ \\
-					Reciprocal Rule & $\int \frac{1}{x} , dx = \ln$ \\
+					Product Rule & $\int u \, dv = uv - \int v \, du$ \\
+					Quotient Rule &  $\int \frac{f'(x)}{f(x)} \, dx = \ln|f(x)| + C$ \\
+					Chain Rule & $\int f(g(x)) \cdot g'(x) \, dx = F(g(x)) + C$ \\					
+					Reciprocal Rule & $\int \frac{1}{x} \, dx = \ln|x| + C$ \\
+					
+
+					
 				\end{tabular}
 				
 				
@@ -104,16 +106,15 @@ pdfkeywords={Random Software, Cheatsheet}
 				%----------------------------------------------------------------------------------------
 				
 
-				\sectiontitle{Table of Derivatives}									
+				\sectiontitle{Table of Integrals}									
 				\centering
 
 				\begin{tabular}{ll}
 					
 				
-					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
-					
-					$\int x^n \,$ $dx = \frac{x^{n+1}}{n+1} + C$ \\
-	
+					\underline{\textbf{Function $f(x)$}} & 
+					\underline{\textbf{Integrals $\int f(x) \,dx$}} \\			
+					$x^n \, (n (\neq -1))$ & $\frac{x^{n+1}}{n+1} + C$ \\
 
 				\end{tabular}
 				
@@ -127,10 +128,8 @@ pdfkeywords={Random Software, Cheatsheet}
 				\centering
 				
 				\begin{tabular}{ll}
-					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
-					
-					
-					\(\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad \)(n \(\neq -1\))
+					\underline{\textbf{Function $f(x)$}} & 
+					\underline{\textbf{Integrals $\int f(x) \,dx$}} \\
 					
 					
 				\end{tabular}
@@ -144,7 +143,8 @@ pdfkeywords={Random Software, Cheatsheet}
 				
 				
 				\begin{tabular}{ll}
-					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
+					\underline{\textbf{Function $f(x)$}} & 
+					\underline{\textbf{Integrals $\int f(x) \,dx$}} \\
 
 
 				\end{tabular}
@@ -169,7 +169,8 @@ pdfkeywords={Random Software, Cheatsheet}
 				
 				
 				\begin{tabular}{ll}
-					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
+					\underline{\textbf{Function $f(x)$}} & 
+					\underline{\textbf{Integrals $\int f(x) \,dx$}} \\
 
 					
 				\end{tabular}
@@ -183,7 +184,8 @@ pdfkeywords={Random Software, Cheatsheet}
 				\centering
 				
 				\begin{tabular}{ll}
-					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
+					\underline{\textbf{Function $f(x)$}} & 
+					\underline{\textbf{Integrals $\int f(x) \,dx$}} \\
 
 					
 				\end{tabular}
@@ -198,7 +200,8 @@ pdfkeywords={Random Software, Cheatsheet}
 				\centering
 				
 				\begin{tabular}{ll}
-					\underline{\textbf{Function $f(x)$}} & \underline{\textbf{Derivative $\frac{d}{dx}[f(x)]$}} \\
+					\underline{\textbf{Function $f(x)$}} & 
+					\underline{\textbf{Integrals $\int f(x) \,dx$}} \\
 					
 				\end{tabular}
 				
